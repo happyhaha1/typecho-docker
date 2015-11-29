@@ -8,3 +8,4 @@ RUN curl -L -o tpyecho.tar.gz https://github.com/typecho/typecho/releases/downlo
 RUN tar zxf tpyecho.tar.gz
 RUN cp -a build/* /var/www/html/
 RUN rm -r build tpyecho.tar.gz
+
